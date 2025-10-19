@@ -12,3 +12,6 @@ lista_animais = [c1,g1,v1]
 for animal in lista_animais:
     animal.emitir_som()
     animal.apresentar()
+    
+v1.obter_producao_leite()
+v1.registrar_ordenha(28.8)
