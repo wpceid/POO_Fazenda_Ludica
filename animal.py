@@ -4,7 +4,7 @@ class Animal:
         self.idade = idade
         
     def emitir_som(self):
-        return "O animal emite um som"
+        print("O animal emite um som")
         
-    def apresentar(self, nome, idade):
-        return f"Olá, eu sou {nome} e tenho {idade} anos"
+    def apresentar(self):
+        print(f"Olá, eu sou {self.nome} e tenho {self.idade} anos")

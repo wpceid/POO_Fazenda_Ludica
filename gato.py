@@ -6,4 +6,4 @@ class Gato(Animal):
         self.cor_pelo = cor_pelo
         
     def emitir_som(self):
-         return "Miau!"
+        print("Miau!")

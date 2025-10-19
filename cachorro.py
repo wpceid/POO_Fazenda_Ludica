@@ -6,4 +6,4 @@ class Cachorro(Animal):
         self.raca = raca
         
     def emitir_som(self):
-        return "Au Au!"
+        print("Au Au!")
