@@ -25,10 +25,10 @@ class Gato(Animal):
     def emitir_som(self):
          return "Miau!"
         
-class vaca(Animal):
+class Vaca(Animal):
     def __init__ (self, nome, idade, producao_leite_litros):
         super().__init__(nome, idade)
-        self.producao_leite_litros = producao_leite_litros
+        self.__producao_leite_litros = producao_leite_litros
         
     def emitir_som(self):
         return "Muuuu!"
