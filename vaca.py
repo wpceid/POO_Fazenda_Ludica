@@ -6,7 +6,7 @@ class Vaca(Animal):
         self.__producao_leite_litros = producao_leite_litros
         
     def emitir_som(self):
-        return "Muuuu!"
+        print("Muuuu!")
     
     #Método getter
     def obter_producao_leite(self):
