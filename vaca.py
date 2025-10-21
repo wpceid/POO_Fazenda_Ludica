@@ -10,7 +10,7 @@ class Vaca(Animal):
     
     #Método getter
     def obter_producao_leite(self):
-        print(self.__producao_leite_litros)
+        return (self.__producao_leite_litros)
     
     #Método setter
     def registrar_ordenha(self, litros):

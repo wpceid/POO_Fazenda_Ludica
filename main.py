@@ -13,5 +13,15 @@ for animal in lista_animais:
     animal.emitir_som()
     animal.apresentar()
     
+for animal  in lista_animais:
+    animal.apresentar()
+    animal.emitir_som()
+    if isinstance(animal, Cachorro):
+        print(f"Minha raça é: {animal.raca}")
+    if isinstance(animal, Gato):
+        print (f"O meu pelo é: {animal.cor_pelo}")
+    if isinstance(animal, Vaca):
+        print (f"A minha produção de leite é: {animal.obter_producao_leite()}")
+    
 v1.obter_producao_leite()
 v1.registrar_ordenha(28.8)
